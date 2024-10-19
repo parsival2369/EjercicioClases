@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EjercicioClase {
+    public class SuperHeroe
+    {
+
+        public string Nombre { get; set; }
+        public string identidadSecreta { get; set; }
+        public string ciudad { get; set; }
+        public string puedeVolar { get; set; }
+        public string superPoder { get; set; }
+
+        public SuperHeroe heroe;
+
+        // Constructor
+        public SuperHeroe()
+        {
+            heroe = new SuperHeroe();
+        }
+
+        public void Imprimir()
+        {
+            Console.WriteLine($"Nombre: {Nombre}");
+            Console.WriteLine($"identidadSecreta: {identidadSecreta}");
+            Console.WriteLine($"Ciudad: {ciudad}");
+            Console.WriteLine($"puedeVolar: {puedeVolar}");
+            Console.WriteLine($"superPoder: {superPoder}");
+            Console.WriteLine();
+
+
+
+
+        }
+    }
+
+}
