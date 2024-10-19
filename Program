@@ -1,0 +1,27 @@
+using System;
+
+
+namespace EjercicioClase
+{
+    class Program
+    {
+        static void Main(string [] args)
+        {
+
+            SuperHeroe heroe = new SuperHeroe();
+            heroe.Nombre = "Loro";
+            heroe.identidadSecreta = "identidadSecreta";
+            heroe.ciudad = "ciudad";
+            heroe.puedeVolar = "puedeVolar";
+            heroe.superPoder = "superPoder";
+          
+            heroe.Imprimir();
+
+            SuperPoder poder = new SuperPoder();
+            poder.Nombre = "Flamenco";
+            poder.Descripcion = "Descripcion";
+            poder.Nivel = "Nivel";
+            poder.Imprimir();
+        }
+    }
+}
